@@ -1,5 +1,6 @@
 ![](./images/ecapture-logo-400x400.png)
 
+
 [简体中文](./README_CN.md) | English | [日本語](./README_JA.md)
 
 [![GitHub stars](https://img.shields.io/github/stars/gojue/ecapture.svg?label=Stars&logo=github)](https://github.com/gojue/ecapture)
