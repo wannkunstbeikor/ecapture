@@ -153,7 +153,7 @@ func (h2r *HTTP2Response) Display() []byte {
 					}
 				}
 				if err != nil {
-					frameBuf.WriteString("[http2 response] Incorrect HPACK context, Please use PCAP mode to get correct header fields ...\n")
+					frameBuf.WriteString(fmt.Sprintf("[http2 request] Incorrect HPACK context, Please use PCAP mode to get correct header fields: %v\n", err))
 				}
 			} else {
 				frameBuf.WriteString("[http2 response] Not Supported HEADERS Frame with CONTINUATION frames\n")
